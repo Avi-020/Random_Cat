@@ -39,10 +39,19 @@ function HomePage() {
             <div>
                 DISLIKE
             </div> */}
-            <div className="btn-group mt-3" role="group" aria-label="Basic example ">
+            <div className="btn-group mt-3 mb-4" role="group" aria-label="Basic example ">
   <button type="button" className="btn btn-secondary" onClick={APICALL}>Like</button>
   <button type="button" className="btn btn-secondary ml-4" onClick={APICALL}>Dislike</button>
 </div>
+
+<h3>Welcome to Akansha&prime;s Cat Haven&#33; 🐾 </h3>
+<h4>
+This website is a purr-fect tribute to our friend Akansha&sbquo; whose love for cats knows no bounds. Here&sbquo; we celebrate the furry companions who've stolen her heart. Explore adorable cat photos&sbquo; heartwarming stories&sbquo; and useful tips for fellow cat enthusiasts.
+
+Akansha&sbquo; your passion for cats is truly inspiring&sbquo; and we hope this little corner of the internet brings you endless joy. Thanks for sharing your love of felines with the world&#33;
+</h4>
+ <h4>With whiskers and cuddles&sbquo;</h4> 
+ <h4>Avi Pawar</h4>
 
         </>
     )
