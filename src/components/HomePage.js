@@ -39,9 +39,9 @@ function HomePage() {
             <div>
                 DISLIKE
             </div> */}
-            <div className="btn-group mt-3 mb-4" role="group" aria-label="Basic example ">
-  <button type="button" className="btn btn-secondary" onClick={APICALL}>Like</button>
-  <button type="button" className="btn btn-secondary ml-4" onClick={APICALL}>Dislike</button>
+            <div className=" mt-3 mb-4" >
+  <button type="button" className="btn btn-secondary ml-4" onClick={APICALL} >Like <img src="https://cdn-icons-png.flaticon.com/128/456/456115.png" alt="" style={{width:"4vh",height:"4vh"}} /></button>
+  <button type="button" className="btn btn-secondary ml-4" onClick={APICALL}>Dislike <img src="https://cdn-icons-png.flaticon.com/128/880/880460.png" alt="" style={{width:"4vh",height:"4vh"}} /></button>
 </div>
 
 <h3>Welcome to Akansha&prime;s Cat Haven&#33; 🐾 </h3>
